@@ -21,7 +21,6 @@ class Comparatorr implements Comparable<Comparatorr>{
 	"Account balance of user is : "+acc_Balance+"\n";
 	}
 
-	@Override
 	public int compareTo(Comparatorr o) {
 		if(this.acc_Balance>o.acc_Balance) 
 			return 1;
@@ -36,7 +35,7 @@ public class ComparatorSub2 {
 		ArrayList al=new ArrayList();
 		Comparatorr c=new Comparatorr("ViJaY","StandardChatered",20000);
 		al.add(c);
-		al.add(new Comparatorr("PrAsAd","HDFC",15000));
+		al.add(new Comparatorr("Prasad","HDFC",15000));
 		al.add(new Comparatorr("PrAnAy","SBI",30000));
 		
 		Collections.sort(al);

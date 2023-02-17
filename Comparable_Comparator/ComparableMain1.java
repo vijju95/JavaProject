@@ -39,7 +39,7 @@ public class ComparableMain1 {
 		
 		Student s1 = new Student("Vijay", 19, 'B');
 		al.add(s1);
-		al.add(new Student("happy", 18, 'B'));
+		al.add(new Student("Tanuja", 18, 'B'));
 		al.add(new Student("Pranay", 21, 'B'));
 		al.add(new Student("Prasad", 20, 'B'));
 

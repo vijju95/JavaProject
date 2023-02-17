@@ -24,7 +24,6 @@ class CRableAssignment implements Comparable<CRableAssignment>{
 				designation+"\n"+"Age of imployee is : "+age;
 	}
 
-	@Override
 	public int compareTo(CRableAssignment o) {
 		if(this.age>o.age)
 			return 1;
